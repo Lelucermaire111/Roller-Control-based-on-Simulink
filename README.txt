@@ -1,0 +1,6 @@
+在运行项目文件之前需要首先运行Data.m文件以将一些常数导入工作区。
+Original.slx为未引入反馈仿真系统
+myTransitionFcn&myMeasurementFcn为扩展卡尔曼滤波所需要的用到的函数
+func.m定义的为等效噪声带宽中的积分函数
+MonteCarlo为使用蒙特卡罗法求等效噪声带宽
+其余文件均可以从命名中直观地理解
